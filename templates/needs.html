@@ -1,0 +1,9 @@
+<div class="container" ng-controller="NeedsController">
+    <div class="row">
+        <div ng-repeat="tech in needs track by $index">
+            <div class="col-sm-4">
+                <wish-list tech="tech"></wish-list>
+            </div>
+        </div>
+    </div>
+</div>
